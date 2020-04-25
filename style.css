@@ -1,0 +1,294 @@
+html, body {
+position: relative;
+width: 1440px;
+background: #FFFFFF;
+padding: 0;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+}
+
+h1 {
+font-family: Playfair Display;
+font-weight: 900;
+font-size: 35px;
+line-height: 47px;
+letter-spacing: 1px;
+color: #000000;
+text-align: center;
+margin-top: 60px;
+margin-bottom: 46px;
+}
+
+nav {
+width: 1171px;
+margin-left: 135px;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+list-style-type: none;
+letter-spacing: 2px;
+margin-bottom: 47px;
+}
+
+ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 0;
+padding: 0;
+}
+
+li{
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+color: #000000;
+}
+
+nav a:hover,
+.reviews h3:hover{
+    color:#FF7931;
+}
+
+.hotel{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: relative;
+    background: #C4C4C4 url(img/Hotel.jpg) no-repeat;
+    background-size: auto;
+    height: 464px;
+    color: white;
+}
+
+.new {
+    position: absolute;
+    left: 135px;
+    align-self: flex-start;
+    width: 117px;
+    height: 25px;
+    box-sizing: border-box;
+    padding: 5px 25px;
+    background-color: #FF7931 ;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.headline {
+    margin-top: 133px;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+    
+}
+
+.headline::before  {
+    margin: 0;
+    content: '';
+    background-image: url(img/mountain.svg);
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 46px;
+    left: 693px;
+}
+
+.hotel p {
+    line-height: 23px;
+    text-align: center;
+    width: 456px;
+    white-space: pre-wrap;
+}
+  
+.reviev {
+    margin-top: 44px;
+    margin-bottom: 20px ;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.reviews {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 137px;
+}
+
+.reviews article {
+    width: 370px;
+    margin-right: 30px;
+}
+
+.reviews h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;  
+}
+
+.orange {
+    color: #FF7931
+}
+
+.orange:hover {
+    color: black !important;
+}
+
+.anatomy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.monparnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.chudaki {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.reviews h3{
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    background: radial-gradient(circle, #ffffff 353px, #f7f7f7 353px);
+}
+
+.tickets h2 {
+    position: relative;
+    right: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.tickets article {
+    width: 370px;
+}
+
+.tickets h3 {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    margin-top: 32px;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+    background-color:rgba(0, 0, 0, 0.2) ;
+    margin-top: 10px;
+}
+
+.tickets p {
+    margin-top: -15px;
+}
+
+input {
+    width: 170px;
+    height: 47px;
+    margin-top: 35px;
+    background: #FF7931 url(img/button.svg) no-repeat 50% 50%;
+}
+
+input:hover {
+    background-color:rgb(250, 95, 48);
+}
+
+footer {
+
+    padding-top: 5px;
+    margin-top: 86px;
+    background-color: #575757;
+    height: 295px;
+    color: white;
+}
+
+footer h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+footer li a{
+    color: white;
+}
+
+.menu-footer {
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+    padding-bottom: 46px ;
+}
+
+.social  {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+    display: inline-block;
+    background: #ffffff;
+    height: 47px;
+    width: 47px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background-color: #FF7931;
+}
+
+.inst {
+    padding-top: 12px;
+    margin-right: 14px;
+}
+
+.fb {
+    padding-top: 13px;
+    margin-right: 14px;
+}
+
+.tt {
+    padding-top: 15px;
+}
