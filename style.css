@@ -84,25 +84,20 @@ nav a:hover,
 }
 
 .headline {
-    margin-top: 133px;
+    margin-top: 25px;
     font-size: 72px;
     line-height: 84px;
     letter-spacing: 2px;
     font-weight: normal;
     text-transform: uppercase;
-    margin-bottom: 120px;
-    
+    margin-bottom: 120px;   
 }
 
-.headline::before  {
-    margin: 0;
-    content: '';
-    background-image: url(img/mountain.svg);
+.hotel img {
     height: 55px;
     width: 55px;
-    position: absolute;
-    top: 46px;
-    left: 693px;
+    margin-top: 46px ;
+    text-align: center;
 }
 
 .hotel p {
