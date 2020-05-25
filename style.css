@@ -62,7 +62,7 @@ nav a:hover,
     align-items: center;
     position: relative;
     background: #C4C4C4 url(img/Hotel.jpg) no-repeat;
-    background-size: auto;
+    background-size: 100%;
     height: 464px;
     color: white;
 }
@@ -90,7 +90,8 @@ nav a:hover,
     letter-spacing: 2px;
     font-weight: normal;
     text-transform: uppercase;
-    margin-bottom: 120px;   
+    margin-bottom: 120px;
+    
 }
 
 .hotel img {
@@ -99,6 +100,7 @@ nav a:hover,
     margin-top: 46px ;
     text-align: center;
 }
+
 
 .hotel p {
     line-height: 23px;
@@ -121,7 +123,8 @@ nav a:hover,
 .reviews {
     flex-wrap: wrap;
     display: flex;
-    justufy-content: center;
+    justify-content: center;
+
 }
 
 .reviews article {
