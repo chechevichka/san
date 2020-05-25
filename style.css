@@ -121,7 +121,7 @@ nav a:hover,
 .reviews {
     flex-wrap: wrap;
     display: flex;
-    margin-left: 137px;
+    justufy-content: center;
 }
 
 .reviews article {
